@@ -1,0 +1,21 @@
+
+.reflinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reflinks a{
+    font-size: 14px;
+    color: #c59090;
+    text-decoration: none;
+    margin: 12px 0 25px;
+}
+
+.reflinks a:nth-child(2){
+    color: #da1515;
+}
+
+.reflinks a:hover{
+    color: #da1515;
+    transition: .4s;
+}

@@ -1,0 +1,54 @@
+.input-container{
+    margin: 3rem 0;
+    position: relative;
+}
+
+.input-container input{
+    position: relative;
+    width: 90%;
+    background: transparent;
+    padding: 1.5rem 0.75rem 0.75rem;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    z-index: 22;
+    outline: none;
+}
+
+.input-container span{
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    color: #c59090;
+    padding: 1.5rem 0rem 0.75rem;
+    pointer-events: none;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+
+.input-container input:valid ~ span,
+.input-container input:focus ~ span {
+    color: #da1515;
+    font-size: 14px;
+    transform: translateY(-50px);
+}
+
+.input-container i{
+    width: 90%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #a12929;
+    pointer-events: none;
+    transition: .4s;
+    z-index: 20;
+    border-radius: 5px ;
+}
+
+
+.input-container input:valid ~ i,
+.input-container input:focus ~ i{
+    height: 2.5rem;
+}

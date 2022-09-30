@@ -1,0 +1,36 @@
+
+.section{
+    width: 400px;
+    height: 520px;
+    border-radius: 1rem;
+    background: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.section::before{
+    content: '';
+    width: 400px;
+    height: 520px;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,
+    #da1515, #da1515);
+    animation: border 5s linear infinite;
+    transform-origin: bottom right;
+}
+
+.section::after{
+    content: '';
+    width: 400px;
+    height: 520px;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,
+    #c59090, #c59090);
+    animation: border 5s linear infinite;
+    transform-origin: bottom right;
+    animation-delay: -2s;
+}

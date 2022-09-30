@@ -1,0 +1,17 @@
+
+#card{
+    background: rgb(8, 8, 8);
+    padding: 3rem 2.25rem;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 100;
+    inset: 3px;
+}
+
+#card h2{
+    text-align: center;
+    letter-spacing: 1px;
+    color: lightcoral;
+    font-size: 2rem;
+    font-weight: 400;
+}
