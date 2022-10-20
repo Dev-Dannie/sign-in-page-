@@ -1,4 +1,4 @@
-
+/* styling for login button */
 #login{
     padding: 8px 12px;
     font-size: 14px;
@@ -8,7 +8,7 @@
     color: white;
     letter-spacing: 1px;
 }
-
+/*hover style */
 #login:hover{
  border: 1px solid #da1515;
  background: transparent;
