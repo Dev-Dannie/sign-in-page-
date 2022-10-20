@@ -1,7 +1,10 @@
+/* username and password input style */
 .input-container{
     margin: 3rem 0;
     position: relative;
 }
+
+/* general input style */
 
 .input-container input{
     position: relative;
@@ -26,6 +29,8 @@
     letter-spacing: 1px;
     transition: .4s;
 }
+
+/* special effect before and after input is highlighted */
 
 .input-container input:valid ~ span,
 .input-container input:focus ~ span {
